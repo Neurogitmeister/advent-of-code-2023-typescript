@@ -21,6 +21,7 @@ import day19 from "./day19";
 import day20 from "./day20";
 import day21 from "./day21";
 import day23 from "./day23";
+import day24 from "./day24";
 
 const templateHtml = `
 <h1>AdventOfCode 2023</h1>
@@ -32,6 +33,6 @@ const templateHtml = `
 `;
 
 let html = templateHtml;
-html = day23();
+html = day24();
 
 document.getElementById("app")!.innerHTML = html;
